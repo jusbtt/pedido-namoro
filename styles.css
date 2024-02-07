@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2d0d45; /* Fundo Roxo Escuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    color: white;
+  }
+  
+  .title {
+    font-size: 4em;
+    color: #ff0000; /* Vermelho */
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); /* Sombreamento */
+  }
+  
+  .subtitle {
+    font-size: 2em;
+    animation: pulse 1.5s infinite alternate; /* Efeito de pulsassão */
+  }
+  
+  .buttons {
+    margin-top: 30px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button#sim {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+  }
+  
+  button#nao {
+    background-color: #f44336; /* Vermelho */
+    color: white;
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
+  
